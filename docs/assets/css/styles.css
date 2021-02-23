@@ -1,0 +1,282 @@
+.jumbotron {
+  background: #D9D9D9;
+}
+
+body {
+  background: #D9D9D9;
+}
+
+.cont {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  perspective: 700px;
+  perspective-origin: top;
+}
+
+.ima {
+  margin: auto;
+  transition: all 5s;
+  transform: rotate3d(1,0,0, 0deg);
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.row {
+}
+
+.filas .row {
+  padding-bottom: 300px;
+}
+
+.filas p {
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .filas .ima {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .filas .cont {
+    padding: 0;
+    height: auto;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .filas .row {
+    padding: 0px;
+  }
+}
+
+body.dark .filas p {
+  color: white;
+}
+
+.filas {
+  text-align: center;
+}
+
+.filas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.jumbotron {
+  position: relative;
+  background: linear-gradient(-45deg, #BFBFBF, #595959, #262626, #0D0D0D);
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+  text-align: center;
+}
+
+body.dark #navcol-1 a {
+  color: white;
+}
+
+#navcol-1 a {
+  color: #0D0D0D;
+}
+
+.present {
+  text-align: center;
+  color: #0D0D0D;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 0;
+  border: 8px #D9D9D9 solid;
+  max-width: 1200px;
+  margin: auto;
+}
+
+body.dark .present {
+  color: #F2F2F0;
+  border: 8px #262626 solid;
+  background: #737373;
+}
+
+.footer-basic {
+  background: #D9D9D9;
+  color: black;
+}
+
+body.dark .footer-basic {
+  background: #262626;
+  color: #BFBFBF;
+}
+
+.ima:hover {
+  transition: all 5s;
+  transform: rotate3d(1,0,0, 90deg);
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 2px #595959 solid;
+  margin: 3px;
+  padding: 15px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+body.dark .tarjetas {
+  color: #BFBFBF;
+}
+
+.tarjetas i {
+  font-size: 30px;
+}
+
+#limones {
+  width: 100%;
+  height: auto;
+}
+
+.imaA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 1100px;
+  perspective-origin: top;
+}
+
+body.dark .imaA {
+  color: #BFBFBF;
+}
+
+@media (max-width: 992px) {
+  .tarjetas i {
+    padding-top: 20px;
+  }
+}
+
+.gradiete {
+  position: relative;
+  background: linear-gradient(-45deg, #BFBFBF, #595959, #262626, #0D0D0D);
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  border-radius: 20px;
+  border: 2px black solid;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.present {
+  padding: 30px;
+  background: #F2E9E9;
+  color: #9f9f9f;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+.gradiente {
+  position: relative;
+  background: linear-gradient(-45deg, #BFBFBF, #595959, #262626, #0D0D0D);
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  border: 2px black solid;
+  padding: 8px;
+  width: 73.5px;
+  height: 38px;
+  cursor: pointer;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background: rgb(195,169,74);
+}
+
+body.dark .navbar.navbar-light.navbar-expand-md {
+  background: #262626;
+}
+
+#limones {
+  transition: all 5s;
+  transform: rotate3d(1,0,0, 0deg);
+}
+
+#limones:hover {
+  transition: all 5s;
+  transform: rotate3d(1,0,0, 90deg);
+}
+
+#limonesbig {
+  width: 100%;
+  height: auto;
+  transition: all 7s;
+  transform: rotate3d(1,0,0, 0deg);
+}
+
+#limonesbig:hover {
+  transition: all 5s;
+  transform: rotate3d(1,0,0, 130deg);
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media (max-width: 392px) {
+  .logo {
+    width: 50%;
+    height: auto;
+  }
+}
+
+.tarjetas {
+  margin-top: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background: #F2E9E9;
+  border: 10px #D9D9D9 solid;
+  color: #8C8C8C;
+}
+
+body.dark .info {
+  border: 10px #262626 solid;
+  color: white;
+  background: #737373;
+}
+
